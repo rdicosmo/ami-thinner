@@ -1,0 +1,11 @@
+2013-01-29
+  After the work by Quinton, we propose to thin Debian Images on EC2 (like AMI)
+  using our MISC solvers.
+
+  The script thinnit.sh takes as parameter a file containing the package metadata
+  (possibly a concatenation of Debian Packages files), and an optional set of packages one
+  wants installed on top of the base system (a comma-separated list of package names),
+  and produces as output a CUDF file containing the list of packages needed for the
+  installation with minimal installed size (the size in Kb of this installation is
+  output by the script on the last line: just forget the - sign in front of it).
+
