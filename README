@@ -6,6 +6,7 @@
   (possibly a concatenation of Debian Packages files), and an optional set of packages one
   wants installed on top of the base system (a comma-separated list of package names),
   and produces as output a CUDF file containing the list of packages needed for the
-  installation with minimal installed size (the size in Kb of this installation is
-  output by the script on the last line: just forget the - sign in front of it).
+  installation with minimal installed size (the size in Kb of this installation and
+  the number of packages required are output by the script on the last line: just
+  ignore the the leading - signs).
 

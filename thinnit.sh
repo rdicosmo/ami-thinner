@@ -48,4 +48,4 @@ ceve -tdeb -Tcudf $dist -o /tmp/instance-$$.cudf --request="$request"
 aspcud /tmp/instance-$$.cudf thinned.cudf "-sum(solution,installedsize)"
 
 #check the solution, and make the sum
-cudf_sol_check -cudf /tmp/instance-$$.cudf -sol thinned.cudf -crit "-sum(solution,installedsize)"
+cudf_sol_check -cudf /tmp/instance-$$.cudf -sol thinned.cudf -crit "-sum(solution,installedsize),-count(solution)"
