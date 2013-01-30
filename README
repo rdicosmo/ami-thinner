@@ -10,3 +10,17 @@
   the number of packages required are output by the script on the last line: just
   ignore the the leading - signs).
 
+REQUIREMENTS:
+  To run the toolchain, you need:
+
+   - aspcud, version 1.7 or later, from http://www.cs.uni-potsdam.de/wv/aspcud/
+     (the version in Debian experimental, as of 2012.10.24-1 is fine) 
+     make sure the executable aspcud is the aspcud-full one
+
+   - ceve, which is one of the applications compiled by default in the
+     Dose library from https://gforge.inria.fr/projects/dose/
+     (the version of ceve in Debian as of 1.4-2 is not recent enough)
+
+   - cudf_solution_checker from https://gforge.inria.fr/projects/misc-competitio/
+
+   
